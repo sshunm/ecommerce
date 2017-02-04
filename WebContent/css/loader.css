@@ -1,0 +1,90 @@
+.loader {
+	border: 16px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 16px solid #3498db;
+	width: 50px;
+	height: 50px;
+	-webkit-animation: spin 2s linear infinite;
+	animation: spin 2s linear infinite;
+	margin: 160px 0 0 580px;
+	position: absolute;
+	display: none;
+	z-index: 1000;
+}
+
+@
+-webkit-keyframes spin { 0% {
+	-webkit-transform: rotate(0deg);
+}
+
+100%
+{
+-webkit-transform
+:
+ 
+rotate
+(360deg);
+ 
+}
+}
+@
+keyframes spin { 0% {
+	transform: rotate(0deg);
+}
+
+100%
+{
+transform
+:
+ 
+rotate
+(360deg);
+ 
+}
+}
+.submit_button {
+	display: block;
+	width: 95%;
+	height: 37px;
+	margin-top: 25px;
+	margin-right: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #294779;
+	text-align: center;
+	background: #ccc;
+	background-clip: padding-box;
+	border: 1px solid #284473;
+	border-bottom-color: #223b66;
+	border-radius: 20px;
+	cursor: pointer;
+	-moz-box-shadow: 1px 1px 1px 2px #3d3d3d;
+	-webkit-box-shadow: 1px 1px 1px 2px #3d3d3d;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #eee url(images/bg.jpg) top left repeat;
+	color: #444;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.top {
+	margin-top: 10px;
+}
+
+.company {
+	display: none;
+}
+
+.adminPrivilege {
+	display: none;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+#logOutImg, #viewOrderslogOutImg, #cartLogOutImg {
+	position: fixed;
+	left: 95%;
+}

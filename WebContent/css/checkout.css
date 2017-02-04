@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+#panel, #Address, #Payment, #panel1 {
+	padding: 5px;
+	text-align: center;
+	background-color: #e5eecc;
+	border: solid 1px #c3c3c3;
+}
+
+#panel, #panel1 {
+	padding: 50px;
+}
+
+#card_details {
+	padding: 50px;
+	display: none;
+}
+
+.purchase {
+	width: 10%;
+	margin-left: 600px;
+	margin-bottom: 20px;
+}
